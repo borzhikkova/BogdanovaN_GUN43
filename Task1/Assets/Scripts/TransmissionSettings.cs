@@ -50,7 +50,7 @@ namespace Tanks
 			var index = Array.FindIndex(_data, t => compare(t, speed));
 			if (index == -1)
 			{
-				Debug.LogError($"Incorrect <b>{nameof(TransmissionSettings)}<b> configuration. \nWrong request: <b>{speed}</b>");
+				//Debug.LogError($"Incorrect <b>{nameof(TransmissionSettings)}<b> configuration. \nWrong request: <b>{speed}</b>");
 				curve = null;
 				return false;
 			}
